@@ -45,7 +45,7 @@ public class WebController {
 	        connection.disconnect();
 	        jsonResponse = new JSONObject(resp);
 		} catch (Exception e) {
-			// TODO: handle exception
+			e.printStackTrace();
 		}
 	
 		return jsonResponse;
